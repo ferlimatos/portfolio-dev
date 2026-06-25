@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("/imgs/Background_Intro.png");
+  background-image: url('/imgs/Background_Intro.png');
   background-size: cover;
   background-position: center;
   height: 750px;
@@ -62,14 +62,14 @@
 }
 
 .icon-css {
-  filter: invert(52%) sepia(48%) saturate(718%) hue-rotate(167deg) brightness(91%) contrast(91%);
+  filter: invert(52%) sepia(48%) saturate(718%) hue-rotate(167deg)
+    brightness(91%) contrast(91%);
 }
-
 
 @media (max-width: 768px) {
   .intro-section {
-    min-height: auto;       
-    padding-top: 80px;      
+    min-height: auto;
+    padding-top: 80px;
     padding-bottom: 40px;
     padding: 4px;
   }
@@ -85,8 +85,8 @@
   .tecnologias {
     margin-bottom: 2rem;
   }
-  
+
   .tecnologia {
-  margin-bottom: 0;
+    margin-bottom: 0;
   }
 }
